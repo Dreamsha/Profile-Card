@@ -103,6 +103,14 @@ button:hover {
     text-shadow: 0.5px 0 0 currentColor, -0.5px 0 0 currentColor;
 }
 
+.email-btn {
+    display: inline-block;
+    color: white !important;   /* Pastikan teks tetap putih */
+    text-decoration: none;     /* Hapus garis bawah link */
+    cursor: pointer;
+}
+
+
 @media (max-width: 480px) {
     .card {
         width: 80%;
