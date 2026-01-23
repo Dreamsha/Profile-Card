@@ -135,6 +135,9 @@ p { font-size: 0.85rem; line-height: 1.6; }
 }
 
 @media (max-width: 480px) {
-    .card { width: 85%; }
+    .card { width: 85%; max-width: 280px; padding: 20px 15px;}
     .img-container { width: 120px; height: 120px; }
+    h1 { font-size: 1.3rem; }
+    p { font-size: 0.8rem; }
 }
+
